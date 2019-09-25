@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace Library.GameObj
 {
@@ -8,12 +9,28 @@ namespace Library.GameObj
     {
         public int posX, posY;
         public bool alive = true;
+        static readonly string textFile = @"C:/Users/jmurphy/Desktop/TurtleChallenge/TurtleChallenge/Directions.txt";
+        string[] lines;
 
         public void setPos(int x, int y)
         {
             posX = x;
             posY = y;
-            Console.WriteLine("The Turtle's position is "+ x +","+ y); 
+            Console.WriteLine("The Turtle's position is "+ x +","+ y);
+
+            if (File.Exists(textFile))
+            {
+                //test
+                lines = File.ReadAllLines(textFile);
+
+                // Read entire text file content in one string  
+               // foreach (string line in lines)
+                  //  Console.WriteLine(line);
+            }
+            else {
+                Console.WriteLine("Error Directions not found");
+            }
+
         }
 
         public int getPosX()
@@ -27,35 +44,32 @@ namespace Library.GameObj
 
         public void Move(int r, int c)
         {
-            //check boundary 
-            int ran = RandomNumber(0, 4);
-
-            // move turtle up if boundary allows
-            if (ran == 0 && posX > 0)
+          
+            foreach (string line in lines) 
             {
-                setPos(posX - 1, posY);
+                // move turtle up if boundary allows
+                if (line == "up" && posX > 0)
+                    {
+                    setPos(posX - 1, posY);
+                }
+                // move turtle down if boundary allows
+                if (line == "down" && posX < r - 1)
+                {
+                    setPos(posX + 1, posY);
+                }
+                // move turtle right if boundary allows
+                if (line == "right" && posY < c - 1)
+                {
+                    setPos(posX, posY + 1);
+                }
+                // move turtle left if boundary allows
+                if (line == "left" && posY > 0)
+                {
+                    setPos(posX, posY - 1);
+                }
             }
-            // move turtle down if boundary allows
-            if (ran == 1 && posX < r-1)
-            {
-                setPos(posX +1, posY);
-            }
-            // move turtle right if boundary allows
-            if (ran == 2 && posY < c-1)
-            {
-                setPos(posX, posY+1);
-            }
-            // move turtle left if boundary allows
-            if (ran == 3 && posY > 0)
-            {
-                setPos(posX, posY-1);
-            }
-
+            
         }
-        public int RandomNumber(int min, int max)
-        {
-            Random random = new Random();
-            return random.Next(min, max);
-        }
+       
     }
 }
