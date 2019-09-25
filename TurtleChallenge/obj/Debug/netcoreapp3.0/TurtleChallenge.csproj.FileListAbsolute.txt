@@ -1,0 +1,14 @@
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\bin\Debug\netcoreapp3.0\TurtleChallenge.exe
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\bin\Debug\netcoreapp3.0\TurtleChallenge.deps.json
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\bin\Debug\netcoreapp3.0\TurtleChallenge.runtimeconfig.json
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\bin\Debug\netcoreapp3.0\TurtleChallenge.runtimeconfig.dev.json
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\bin\Debug\netcoreapp3.0\TurtleChallenge.dll
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\bin\Debug\netcoreapp3.0\TurtleChallenge.pdb
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\obj\Debug\netcoreapp3.0\TurtleChallenge.csprojAssemblyReference.cache
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\obj\Debug\netcoreapp3.0\TurtleChallenge.AssemblyInfoInputs.cache
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\obj\Debug\netcoreapp3.0\TurtleChallenge.AssemblyInfo.cs
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\obj\Debug\netcoreapp3.0\TurtleChallenge.dll
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\obj\Debug\netcoreapp3.0\TurtleChallenge.pdb
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\bin\Debug\netcoreapp3.0\Library.dll
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\bin\Debug\netcoreapp3.0\Library.pdb
+C:\Users\jmurphy\Desktop\TurtleChallenge\TurtleChallenge\obj\Debug\netcoreapp3.0\TurtleChallenge.csproj.CopyComplete

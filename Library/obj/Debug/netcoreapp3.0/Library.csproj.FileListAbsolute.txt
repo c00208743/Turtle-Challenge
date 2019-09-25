@@ -1,0 +1,13 @@
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\bin\Debug\netcoreapp3.0\Library.deps.json
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\bin\Debug\netcoreapp3.0\Library.dll
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\bin\Debug\netcoreapp3.0\Library.pdb
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\obj\Debug\netcoreapp3.0\Library.csprojAssemblyReference.cache
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\obj\Debug\netcoreapp3.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\obj\Debug\netcoreapp3.0\Library_MarkupCompile.cache
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\obj\Debug\netcoreapp3.0\Library_MarkupCompile.lref
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\obj\Debug\netcoreapp3.0\Themes\Generic.baml
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\obj\Debug\netcoreapp3.0\Library.g.resources
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\obj\Debug\netcoreapp3.0\Library.AssemblyInfoInputs.cache
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\obj\Debug\netcoreapp3.0\Library.AssemblyInfo.cs
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\obj\Debug\netcoreapp3.0\Library.dll
+C:\Users\jmurphy\Desktop\TurtleChallenge\Library\obj\Debug\netcoreapp3.0\Library.pdb
